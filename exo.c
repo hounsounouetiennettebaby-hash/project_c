@@ -16,7 +16,7 @@
             cpt++;
             }
       }
-      moy=som/cpt;
-      printf("la moyenne est %f,moy");
+       moy= (float) som/cpt;
+      printf("la moyenne est %.2f",moy);
     return 0;
  }
