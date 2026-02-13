@@ -1,6 +1,7 @@
 #include <stdio.h>
  int main(){
-     int x,n;
+     int x,n,som=0,cpt=0;
+     float moy;
      do{
       printf("Veuillez entrer le nombre d'entiers positifs à saisir:");
       scanf("%d",&n);
@@ -10,7 +11,12 @@
         puts("Veuillez saisir des entiers négatifs:");
         scanf("%d",&x);
             }while(x>0);
-            printf("Vous avez saisir %d",x);
+             if(x%2==0){
+            som=som+x;
+            cpt++;
+            }
       }
+      moy=som/cpt;
+      printf("la moyenne est %f,moy");
     return 0;
  }
