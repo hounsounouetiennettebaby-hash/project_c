@@ -18,6 +18,6 @@
       }
        moy= (float) som/cpt;
       printf("la moyenne est %.2f",moy);
-      printf("Le nombre de nombres impairs est %d",n-cpt);
+      printf("le nombre de nombres impairs %d",n-cpt);
     return 0;
  }
